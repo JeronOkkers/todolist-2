@@ -1,0 +1,37 @@
+{
+  "AsyncStorage": {
+
+  },
+  "expo": {
+    "name": "Todolist",
+    "slug": "Todolist",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cj.png",
+    "splash": {
+      "image": "./assets/cj.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "userInterfaceStyle": "automatic"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cj.png",
+        "backgroundColor": "#FFFFFF"
+      },
+    "package": "com.jeronokkers.todolist"
+  },
+    "web": {
+      "favicon": "./assets/cj.png"
+    }
+  }
+}
